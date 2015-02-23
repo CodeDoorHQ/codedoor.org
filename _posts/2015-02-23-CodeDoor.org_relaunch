@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Relaunch of CodeDoor.org
+permalink: /CodeDoor.org_relaunch/
 ---
 
 CodeDoor.org is now hosted on github pages. It makes contributions easier and reduce the infrastructure costs.
