@@ -1,7 +1,7 @@
 # Codedoor.org
 
 
-This project contains the code for the website www.codedoor.org.
+This project contains the code for the website www.codedoor.org. CodeDoor is a technology based educational system. 
 
 It's hosted on github pages and uses Jekyll to generate the static files.
 
