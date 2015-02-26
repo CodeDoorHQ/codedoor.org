@@ -2,17 +2,34 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+<main>
+    <section class="firstPart">
+        <img alt="Middle east children smiling and playing" src="{{ site.baseurl }}/images/backgroundPicture.jpg">
+        <div class="darkeningLayer">
+            <div class="content">
+                <h1>ENABLE REFUGEES TO LEARN<br/>HOW TO CODE</h1>
+                <h2>Imagine you provide technical and educational needs to your daughter and son</h2>
+            </div>
+        </div>
+    </section>
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+    <section class="secondPart content">
+        <h3>How CodeDoor works</h3>
+        <figure class="illustration">
+            <img src="{{ site.baseurl }}/images/step1Illustration.png" alt="Meeting students illustration">
+            <figcaption>1. Meet students and teachers on CodeDoor.org</figcaption>
+        </figure>
+        <figure class="illustration">
+            <img src="{{ site.baseurl }}/images/step2Illustration.png" alt="Meeting students illustration">
+            <figcaption>2. Donate a finely working laptop, PC or Ipad to the refugees, so they can continue learning.</figcaption>
+        </figure>
+        <figure class="illustration">
+            <img src="{{ site.baseurl }}/images/step3Illustration.png" alt="Meeting students illustration">
+            <figcaption>3. Enable refugees to learn and to teach others how to code.</figcaption>
+        </figure>
 
-      <div class="entry">
-        {{ post.content | truncatewords:40}}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+        <a class="whyLink" href="{{ site.baseurl }}/why">
+            <span>READ WHY WE DO IT</span>
+        </a>
+    </section>
+</main>
