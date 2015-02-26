@@ -1,26 +1,27 @@
 <html lang="en">
   <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta content="en" name="language">
-        <meta charset="utf-8">
-        <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="en" name="language">
+    <meta charset="utf-8">
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
-        <meta name="author" content="{{ site.name }}" />
-        <meta name="description" content="{{ site.description }}">
+    <meta name="author" content="{{ site.name }}" />
+    <meta name="description" content="{{ site.description }}">
 
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <link href="{{ site.baseurl }}/landing.css" rel="stylesheet">
+  </head>
+  <body>
 
-        <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    {% include header.html %}
 
-        <link href="{{ site.baseurl }}/landing.css" rel="stylesheet">
-    </head>
-    <body>
+    <main>
+      {{ content }}
+    </main>
 
-        {% include header.html %}
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
 
-        {{ content }}
+    {% include analytics.html %}
 
-
-        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
-        {% include analytics.html %}
-    </body>
+  </body>
 </html>
