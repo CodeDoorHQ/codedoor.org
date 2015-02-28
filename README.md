@@ -8,6 +8,7 @@ It's hosted on github pages and uses Jekyll to generate the static files.
 Of course we welcome any pull requests. In order to make the most efficient use of your contribution we are sharply defining the modules. The list of modules will soon be posted. 
 
 Design
+
 Regarding the design of the modules, we ask you to use the following checklist. The design should be:
 - Timeless
 - Simple
