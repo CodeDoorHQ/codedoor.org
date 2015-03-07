@@ -1,23 +1,29 @@
-@import "normalize.less";
+---
+---
 
-@lato: 'Lato', sans-serif;
-@resizeAnimationSpeed: 0.2s;
-@black: #1e1e1e;
-@blue: #446c80;
+//
+// IMPORTS
+//
 
+@import "normalize";
+@import "reset";
+@import "variables";
+
+/**************/
+/* BASE RULES */
+/**************/
 
 html
 {
     font-size: 25px;
-    font-family: @lato;
-    transition: font-size @resizeAnimationSpeed;
+    font-family: $lato;
+    transition: font-size $resizeAnimationSpeed;
     background-color: #fdfdfd;
 }
-
-@import "header.less";
-@import "section1.less";
-@import "section2.less";
-@import "footer.less";
+@import "header";
+@import "section1";
+@import "section2";
+@import "footer";
 
 section.content
 {

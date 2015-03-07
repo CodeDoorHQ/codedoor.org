@@ -9,7 +9,7 @@ nav#navHeader
     width: 100%;
     background-color: rgba(0,0,0,0.5);
     z-index: 90;
-    transition: height @resizeAnimationSpeed;
+    transition: height $resizeAnimationSpeed;
 }
 
 h1.logo
@@ -23,7 +23,7 @@ h1.logo
     color: white;
     font-size: 1.5rem;
     font-weight: 300;
-    transition: top @resizeAnimationSpeed;
+    transition: top $resizeAnimationSpeed;
 }
 
 h1.logo > img
@@ -43,7 +43,7 @@ nav#navHeader > ul
     padding: 0;
     margin: 0;
     list-style: none;
-    transition: top @resizeAnimationSpeed;
+    transition: top $resizeAnimationSpeed;
 }
 
 nav#navHeader > ul > li
