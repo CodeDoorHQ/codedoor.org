@@ -17,13 +17,13 @@ section.firstPart .darkeningLayer
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0);
 }
 
 section.firstPart .content
 {
     position: absolute;
-    top: calc(~"50% + 55px");
+    top: calc(50% + 55px);
     width: 100%;
     transform: translateY(-50%);
     transition: top $resizeAnimationSpeed;
@@ -58,27 +58,27 @@ section.firstPart h2
 @media screen and (max-width: 1024px) {
     section.firstPart .content
     {
-        top: calc(~"50% + 50px");
+        top: calc(50% + 50px);
     }
 }
 
 @media screen and (max-width: 960px) {
     html
     {
-        top: calc(~"50% + 45px");
+        top: calc(50% + 45px);
     }
 }
 
 @media screen and (max-width: 768px) {
     html
     {
-        top: calc(~"50% + 40px");
+        top: calc(50% + 40px);
     }
 }
 
 @media screen and (max-width: 640px) {
     html
     {
-        top: calc(~"50% + 35px");
+        top: calc(50% + 35px);
     }
 }

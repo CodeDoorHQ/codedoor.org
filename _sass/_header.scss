@@ -2,12 +2,12 @@
 nav#navHeader
 {
     display: block;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     height: 110px;
     width: 100%;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0);
     z-index: 90;
     transition: height $resizeAnimationSpeed;
 }
