@@ -3,6 +3,12 @@ section.fourthPart
     background-color: #fcd15c;
 }
 
+section.fourthPart form {
+display: flex;
+flex-direction: column;
+
+}
+
 section.fourthPart input
 {
     width: 380px;
