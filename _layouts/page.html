@@ -2,11 +2,21 @@
 layout: default
 ---
 
+
+
+<section class="firstPart">
+    <img alt="Middle east children smiling and playing" src="{{ site.baseurl }}/images/backgroundPicture.jpg">
+    <div class="darkeningLayer">
+        <div class="content">
+            <h1>{{ page.title }}</h1>
+            <h2>{{ page.description }}</h2>
+        </div>
+    </div>
+</section>
+
+
 <article class="page">
-
-  <h1>{{ page.title }}</h1>
-
-  <div class="entry">
+  <div class="content">
     {{ content }}
   </div>
 </article>
