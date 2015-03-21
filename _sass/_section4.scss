@@ -3,32 +3,42 @@ section.fourthPart
     background-color: #fcd15c;
 }
 
+section.fourthPart h3
+{
+    padding-bottom: 30px;
+}
+
+section.fourthPart .contact {
+  display: flex;
+  justify-content: center;
+}
+
 section.fourthPart form {
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  padding-right: 50px;
 
 }
 
-section.fourthPart input
-{
-    width: 380px;
-    height: 52px;
-    font-size: 0.8rem;
-    padding-left: 25px;
+section.fourthPart input {
+  width: 380px;
+  height: 52px;
+  font-size: 0.8rem;
+  padding-left: 25px;
+  margin: 0 0 15 0;
 }
 
-section.fourthPart textarea
-{
-    width: 380px;
-    height: 52px;
-    font-size: 0.8rem;
-    padding-left: 25px;
+section.fourthPart textarea {
+  width: 380px;
+  height:200px;
+  font-size: 0.8rem;
+  padding-left: 25px;
+  margin: 0 0 15 0;
 }
 
 
-section.fourthPart input.submit
-{
-    background-color: #1e1e1e;
-    color: white;
-    border: 0;
+section.fourthPart input.submit {
+  background-color: #1e1e1e;
+  color: white;
+  border: 0;
 }
