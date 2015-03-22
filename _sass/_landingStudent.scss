@@ -1,4 +1,4 @@
-section.thirdPart
+section.landingStudent
 {
     background-color: #446c80;
     text-align: center;
@@ -7,13 +7,13 @@ section.thirdPart
     box-sizing: border-box;
 }
 
-.thirdPart h3
+.landingStudent h3
 {
     color: white;
     margin-bottom: 20px;
 }
 
-section h4
+section.landingStudent h4
 {
     display: table;
     margin: 0 auto;
@@ -21,21 +21,21 @@ section h4
     font-size: 1.1rem;
 }
 
-section.thirdPart .report
+section.landingStudent .report
 {
     max-width: 600px;
     margin: 0 auto;
     margin-top: 50px;
 }
 
-section.thirdPart .report .title
+section.landingStudent .report .title
 {
     color: white;
     font-size: 1.1rem;
     letter-spacing: -1px;
 }
 
-section.thirdPart .report .content
+section.landingStudent .report .content
 {
     color: white;
     font-size: 0.65rem;
@@ -46,7 +46,7 @@ section.thirdPart .report .content
     margin-top: 40px;
 }
 
-section.thirdPart .hanaRecent .title
+section.landingStudent .hanyRecent .title
 {
     font-size: 1.0rem;
     color: white;

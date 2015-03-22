@@ -1,26 +1,26 @@
-section.fourthPart
+section.landingContact
 {
     background-color: #fcd15c;
 }
 
-section.fourthPart h3
+section.landingContact h3
 {
     padding-bottom: 30px;
 }
 
-section.fourthPart .contact {
+section.landingContact .contact {
   display: flex;
   justify-content: center;
 }
 
-section.fourthPart form {
+section.landingContact form {
   display: flex;
   flex-direction: column;
   padding-right: 50px;
 
 }
 
-section.fourthPart input {
+section.landingContact input {
   width: 380px;
   height: 52px;
   font-size: 0.8rem;
@@ -28,7 +28,7 @@ section.fourthPart input {
   margin: 0 0 15 0;
 }
 
-section.fourthPart textarea {
+section.landingContact textarea {
   width: 380px;
   height:200px;
   font-size: 0.8rem;
@@ -37,7 +37,7 @@ section.fourthPart textarea {
 }
 
 
-section.fourthPart input.submit {
+section.landingContact input.submit {
   background-color: #1e1e1e;
   color: white;
   border: 0;

@@ -1,16 +1,16 @@
-section.firstPart
+section.pageHeader
 {
     position: relative;
     z-index: 80;
 }
 
-section.firstPart img
+section.pageHeader img
 {
     display: block;
     width: 100%;
 }
 
-section.firstPart .darkeningLayer
+section.pageHeader .darkeningLayer
 {
     position: absolute;
     top: 0;
@@ -20,7 +20,7 @@ section.firstPart .darkeningLayer
     background-color: rgba(0,0,0,0);
 }
 
-section.firstPart .content
+section.pageHeader .content
 {
     position: absolute;
     top: calc(50% + 55px);
@@ -29,8 +29,7 @@ section.firstPart .content
     transition: top $resizeAnimationSpeed;
 }
 
-section.firstPart h1
-{
+section.pageHeader h1 {
     color: white;
     display: table;
     margin: 0 auto;
@@ -41,8 +40,7 @@ section.firstPart h1
     text-align: center;
 }
 
-section.firstPart h2
-{
+section.landingBanner h2 {
     color: white;
     display: table;
     margin: 0 auto;
@@ -56,7 +54,7 @@ section.firstPart h2
 
 
 @media screen and (max-width: 1024px) {
-    section.firstPart .content
+    section.landingBanner .content
     {
         top: calc(50% + 50px);
     }

@@ -21,10 +21,11 @@ html
     background-color: #fdfdfd;
 }
 @import "header";
-@import "section1";
-@import "section2";
-@import "section3";
-@import "section4";
+@import "landingBanner";
+@import "landingMission";
+@import "landingStudent";
+@import "landingContact";
+@import "page";
 @import "faq";
 @import "footer";
 
