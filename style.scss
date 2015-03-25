@@ -7,12 +7,12 @@
 
 @import "vendors/bootstrap.min.css";
 @import "vendors/font-awesome.min.css";
-@import "variables";
 
 
 //
 // Internal imports
 //
+@import "variables";
 @import "main";
 @import "navbar";
 @import "header";
