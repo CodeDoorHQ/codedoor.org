@@ -1,0 +1,26 @@
+/* Navbar style */
+
+.navbar-bold {
+  background-color: rgba(77,77,77,0.5);
+  font-family:'Open Sans',Helvetica,Arial,sans-serif;
+  height: 80px;
+}
+
+// When navbar is scrolling down
+.navbar-bold.affix {
+  background-color: rgba(77,77,77,1);
+}
+
+
+// Links on navbar
+.navbar a {
+  color: #fff;
+}
+// Hover links on navbar
+.navbar-bold li a:hover, .navbar-bold li.active {
+  background-color: rgba(77,77,77,0.5);
+}
+// To align content of navbar in the middle
+.navbar-nav li a {
+  line-height: 40px;
+}
