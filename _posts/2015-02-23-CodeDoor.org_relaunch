@@ -1,9 +1,0 @@
----
-layout: post
-title: Relaunch of CodeDoor.org
-permalink: /CodeDoor.org_relaunch/
----
-
-CodeDoor.org is now hosted on github pages. It makes contributions easier and reduce the infrastructure costs.
-
-We use Jekyll to generate static files, github pages to serve the file and github CNAME support to link our domain name.
