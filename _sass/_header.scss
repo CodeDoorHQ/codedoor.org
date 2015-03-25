@@ -1,7 +1,7 @@
 /* Header style */
 
 .header {
-  height: 80%;
+  height: 100%;
   background: #ddd url('./images/backgroundPicture.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -10,7 +10,7 @@
 }
 
 .header h1 {
-  padding-top: 100px;
+  padding-top: 150px;
   font-size:35px;
   -webkit-text-stroke: 1px rgba(0,0,0,0.1);
   color:#fff;

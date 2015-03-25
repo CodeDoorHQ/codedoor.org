@@ -1,0 +1,21 @@
+<div class="navbar navbar-fixed-top navbar-bold" data-spy="affix" data-offset-top="1000">
+  <div class="container">
+    <div class="navbar-header">
+      <a href="./" class="navbar-brand"><img src="./images/codedoor-inline-name.png" ></a>
+      <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+    </div>
+    <div class="navbar-collapse collapse" id="navbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li{% if page.page == 'mission' %} class="active" {% endif %}><a href="mission.html">OUR MISSION</a></li>
+        <li{% if page.page == 'about' %} class="active" {% endif %}><a href="about.html">ABOUT US</a></li>
+        <li{% if page.page == 'students' %} class="active" {% endif %}><a href="students.html">STUDENTS</a></li>
+        <li{% if page.page == 'contribute' %} class="active" {% endif %}><a href="contribute.html">CONTRIBUTE</a></li>
+        <li{% if page.page == 'faq' %} class="active" {% endif %}><a href="faq.html">FAQ</a></li>
+      </ul>
+    </div>
+   </div>
+</div>
