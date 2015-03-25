@@ -14,7 +14,7 @@ body {
 .row { margin: 0; padding: 0 }
 
 h1 {
-  font-size:45px;
+  font-size:15px;
 }
 
 img.grayscale {
@@ -69,12 +69,11 @@ img.grayscale {
   height: 80px;
 }
 
-.navddbar-bold li a:hover, .navbasdadar-bold li.active {
+.navbar-bold li a:hover, .navbar-bold li.active {
   background-color: rgba(0,197,176,1);
 }
-
-.navassabar-bold.container {
-  margin-top: 15px;
+.navbar-nav li a {
+    line-height: 40px;
 }
 
 .vert {
@@ -84,7 +83,8 @@ img.grayscale {
 }
 
 .header h1 {
-  font-size:110px;
+  padding-top: 100px;
+  font-size:35px;
   -webkit-text-stroke: 1px rgba(0,0,0,0.1);
   color:#431a6d;
   color:#fff;
@@ -95,7 +95,7 @@ img.grayscale {
 
 .header .lead {
   color:#eeeeee;
-  font-size:25px;
+  font-size:20px;
 }
 
 .header {
