@@ -108,3 +108,99 @@ h1 {
 .scroll-top {
   background-color:#33ee67;
 }
+
+.featurevideo {
+  display: block;
+  margin-right: auto;
+  margin-bottom: -5px;
+  margin-left: auto;
+}
+
+.videowrapper {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.quote {
+  display: block;
+  margin-right: 15px;
+  margin-left: 15px;
+  padding: 35px 30px;
+  font-family: Merriweather, serif;
+  color: #dedede;
+  font-size: 22px;
+  line-height: 40px;
+  font-style: normal;
+  font-weight: 300;
+  text-align: left;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-indent: 0px;
+  text-transform: none;
+  text-shadow: none;
+}
+
+.author {
+  padding-top: 0px;
+  padding-right: 50px;
+  padding-left: 50px;
+  font-family:'Open Sans', sans-serif;
+  color: white;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  text-align: right;
+}
+
+.author.authordetail {
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.presslink {
+  display: inline-block;
+  margin: 20px;
+}
+
+.quotediv {
+  position: static;
+  left: 0px;
+  top: 52px;
+  right: 0px;
+  display: block;
+  overflow-x: visible;
+  overflow-y: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  float: none;
+  clear: none;
+  font-size: 17px;
+}
+
+.w-col-stack {
+width:100%;
+left:auto;
+right:auto;
+}
+
+.media.videodisplay {
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  background-color: #446c80;
+}
+
+.media.greywrap {
+  background-color: #446c80;
+}
+
+.media.picturedisplay {
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  background-color: #446c80;
+}
+
+
