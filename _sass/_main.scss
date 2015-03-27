@@ -109,7 +109,42 @@ h1 {
   background-color:#33ee67;
 }
 
+.technology {
+  margin-top: 1.5em;
+  position: center;
+}
+
+.technology-title 
+{
+  font-size:22px;
+  font-weight: bold;
+  /*color:#2fc4ae;*/
+  color:#446c80;
+  font-family:'Open Sans', sans-serif;
+  margin-top: 1.5em;
+  position: center;
+}
+
+.technology-text 
+{
+  font-size:16px;
+  color:#446c80;
+  font-family:'Open Sans', sans-serif;
+  margin-top: 1.5em;
+  padding: 1.5em;
+  line-height: 1.5;
+  display:table-cell; 
+  vertical-align:middle;
+}
+
 .featurevideo {
+  display: block;
+  margin-right: auto;
+  margin-bottom: -5px;
+  margin-left: auto;
+}
+
+.feature {
   display: block;
   margin-right: auto;
   margin-bottom: -5px;
@@ -195,6 +230,7 @@ right:auto;
   background-color: #446c80;
 }
 
+
 .media.picturedisplay {
   padding-right: 0px;
   padding-bottom: 0px;
@@ -202,4 +238,9 @@ right:auto;
   background-color: #446c80;
 }
 
-
+.media.whowearedisplay {
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  background-color: #fff;
+}
