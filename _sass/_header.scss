@@ -68,3 +68,21 @@
    background-color:#eeeeee;
    color:#777777;
 }
+
+
+
+@media only screen and (max-width: 750px) {
+
+  .lead {
+      display: none;
+  }
+
+  .header .lead {
+    display: none;
+
+  }
+
+  .header .btn-lg {
+     display: none;
+  }
+}

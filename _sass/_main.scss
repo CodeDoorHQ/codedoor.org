@@ -1,58 +1,139 @@
-html,
-body {
-  height: 100%;
-  width: 100%;
-  font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+
+/**
+ *
+ * Style for the main page.
+ *
+ **/
+
+/* How it works section */
+.how {
+  h3 {
+    font-size:32px;
+    font-weight: bold;
+    /*color:#2fc4ae;*/
+    color:#446c80;
+    font-family:'Open Sans', sans-serif;
+    margin-top: 1.5em;
+    position: center;
+  }
+
+  h4 {
+    font-size:22px;
+    font-weight: bold;
+    /*color:#2fc4ae;*/
+    color:#446c80;
+    font-family:'Open Sans', sans-serif;
+    margin-top: 1.5em;
+    position: center;
+  }
+
+  p {
+    font-size:16px;
+    color:#446c80;
+    font-family:'Open Sans', sans-serif;
+    margin-top: 1.5em;
+    padding: 1.5em;
+    line-height: 1.5;
+    display:table-cell;
+    vertical-align:middle;
+  }
 }
+/* END How it works section */
 
-/* fix bs3 horizontal scrollbar bug */
-.row { margin: 0; padding: 0 }
+/* Video Melissa section */
+.melissa {
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  background-color: #446c80;
 
-h1 {
-  font-size:15px;
+  .quote {
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 35px 30px;
+    color: #dedede;
+    font-size: 22px;
+    line-height: 40px;
+    font-weight: 300;
+  }
+
+  .author {
+    padding-right: 50px;
+    padding-left: 50px;
+    font-family:'Open Sans', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    text-align: right;
+  }
+
+  .author.authordetail {
+    font-size: 14px;
+    line-height: 30px;
+  }
 }
+/* END Video Melissa section */
 
-
-
-
-/* Rest of the page */
-
-.vert {
-  vertical-align: middle;
-  width:100%;
-  padding-top:4%;
-}
-
-
-.icon-bar {
-   background-color: #fff;
-}
-
-.blurb {
+/* Contact section */
+.contact {
   padding: 120px 0;
   background-color:#fefefe;
-}
 
-.blurb .panel {
-  background-color:transparent;
+  .panel {
+    background-color:transparent;
+  }
 }
 
 .bright {
-  background: #7fbbda url('http://www.bootply.com/assets/example/bg_suburb.jpg') no-repeat center center fixed;
+  background: #7fbbda url('./images/bg-contact.jpg') no-repeat center center fixed;
   color:#fff;
 }
+/* END Contact section */
 
-.featurette {
+
+
+/* Hany section */
+.hany {
+  background: #fff;
+  padding: 50px 0;
+  color: #545455;
+
+    h3 {
+      font-size:32px;
+      font-weight: bold;
+      color:#446c80;
+      font-family:'Open Sans', sans-serif;
+      margin-top: 1.5em;
+      position: center;
+    }
+
+  p {
+    color: #545455;
+    text-align: left;
+    font-size: 22px;
+    line-height: 40px;
+    font-weight: 300;
+  }
+}
+
+/* Technology section */
+.core-values {
   background: #545455;
   padding: 50px 0;
   color: #ffffff;
+
+  a {
+    color: #fff;
+    text-decoration: underline;
+  }
 }
 
-.featurette-item {
+.core-values-item {
   margin-bottom: 15px;
 }
 
-.featurette-item > i {
+.core-values-item > i {
   border: 3px solid #ffffff;
   border-radius: 50%;
   display: inline-block;
@@ -64,209 +145,17 @@ h1 {
   text-align: center;
 }
 
-.featurette-item > i:hover {
+.core-values-item > i:hover {
   font-size: 68px;
 }
-
-.callout {
-  color: #ffffff;
-  padding-top:7%;
-  height: 100%;
-  width: 100%;
-  background: url('http://www.bootply.com/assets/example/bg_suburb.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.gallery {
-  padding: 50px 0;
-}
-
-.call-to-action {
-  background: #eeeeee;
-  padding: 50px 0;
-}
-
-.call-to-action .btn {
-  margin: 10px;
-}
-
-.scroll-down a, .scroll-top a {
-   color:#ffffff;
-}
-
-.scroll-down {
-   position:fixed;
-   bottom:20%;
-   right:0%;
-   color:#f9f9f9;
-}
-
-.scroll-top {
-  background-color:#33ee67;
-}
-
-.technology {
-  margin-top: 1.5em;
-  position: center;
-}
-
-.technology-title
-{
-  font-size:22px;
-  font-weight: bold;
-  /*color:#2fc4ae;*/
-  color:#446c80;
-  font-family:'Open Sans', sans-serif;
-  margin-top: 1.5em;
-  position: center;
-}
-
-.technology-bigtitle
-{
-  font-size:32px;
-  font-weight: bold;
-  /*color:#2fc4ae;*/
-  color:#446c80;
-  font-family:'Open Sans', sans-serif;
-  margin-top: 1.5em;
-  position: center;
-}
-
-.technology-text
-{
-  font-size:16px;
-  color:#446c80;
-  font-family:'Open Sans', sans-serif;
-  margin-top: 1.5em;
-  padding: 1.5em;
-  line-height: 1.5;
-  display:table-cell;
-  vertical-align:middle;
-}
-
-.featurevideo {
-  display: block;
-  margin-right: auto;
-  margin-bottom: -5px;
-  margin-left: auto;
-}
-
-.feature {
-  display: block;
-  margin-right: auto;
-  margin-bottom: -5px;
-  margin-left: auto;
-}
-
-.videowrapper {
-  padding-right: 0px;
-  padding-left: 0px;
-}
-
-.quote {
-  display: block;
-  margin-right: 15px;
-  margin-left: 15px;
-  padding: 35px 30px;
-  color: #dedede;
-  font-size: 22px;
-  line-height: 40px;
-  font-style: normal;
-  font-weight: 300;
-  text-align: left;
-  letter-spacing: 0px;
-  text-decoration: none;
-  text-indent: 0px;
-  text-transform: none;
-  text-shadow: none;
-}
-
-.author {
-  padding-top: 0px;
-  padding-right: 50px;
-  padding-left: 50px;
-  font-family:'Open Sans', sans-serif;
-  color: white;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 300;
-  text-align: right;
-}
-
-.author.authordetail {
-  font-size: 14px;
-  line-height: 30px;
-}
-
-.presslink {
-  display: inline-block;
-  margin: 20px;
-}
-
-.quotediv {
-  position: static;
-  left: 0px;
-  top: 52px;
-  right: 0px;
-  display: block;
-  overflow-x: visible;
-  overflow-y: visible;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  float: none;
-  clear: none;
-  font-size: 17px;
-}
-
-.w-col-stack {
-width:100%;
-left:auto;
-right:auto;
-}
-
-.media.videodisplay {
-  padding-right: 0px;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  background-color: #446c80;
-}
-
-.media.greywrap {
-  background-color: #446c80;
-}
+/* END Technology section */
 
 
-.media.picturedisplay {
-  padding-right: 0px;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  background-color: #446c80;
-}
 
-.media.whowearedisplay {
-  padding-right: 0px;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  background-color: #fff;
-}
+/* Rest of the page */
 
-@media only screen and (max-width: 750px) {
-
-.lead {
-    display: none;
-}
-
-.header .lead {
-  display: none;
-
-}
-
-.header .btn-lg {
-   display: none;
-}
+.vert {
+  vertical-align: middle;
+  width:100%;
+  padding-top:4%;
 }

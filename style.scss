@@ -1,17 +1,30 @@
 ---
 ---
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
 
-//
-// IMPORTS vendors libraries
-//
+/* fix bs3 horizontal scrollbar bug */
+.row { margin: 0; padding: 0 }
+
+h1 {
+  font-size:15px;
+}
+
+/**
+ * IMPORTS vendors libraries
+ **/
 
 @import "vendors/bootstrap.min.css";
-@import "vendors/font-awesome.min.css";
+@import "vendors/font-awesome-4/css/font-awesome.min.css";
 
 
-//
-// Internal imports
-//
+/**
+ * Internal imports
+ **/
 @import "variables";
 @import "main";
 @import "mission";
