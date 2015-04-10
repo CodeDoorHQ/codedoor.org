@@ -13,7 +13,7 @@
     /*color:#2fc4ae;*/
     color:#446c80;
     font-family:'Open Sans', sans-serif;
-    margin-top: 1.5em;
+    margin-top: 1.0em;
     position: center;
   }
 
@@ -23,7 +23,7 @@
     /*color:#2fc4ae;*/
     color:#446c80;
     font-family:'Open Sans', sans-serif;
-    margin-top: 1.5em;
+    margin-top: 1.0em;
     position: center;
   }
 
@@ -31,7 +31,7 @@
     font-size:16px;
     color:#446c80;
     font-family:'Open Sans', sans-serif;
-    margin-top: 1.5em;
+    margin-top: 1.0em;
     padding: 1.5em;
     line-height: 1.5;
     display:table-cell;
@@ -127,10 +127,42 @@
     color: #fff;
     text-decoration: underline;
   }
+
+  h3 {
+    font-size:32px;
+    font-weight: bold;
+    /*color:#2fc4ae;*/
+    color:#fffff;
+    font-family:'Open Sans', sans-serif;
+    margin-top: 1.0em;
+    position: center;
+  }
+
+  h4 {
+    font-size:22px;
+    font-weight: bold;
+    color:#fffff;
+    font-family:'Open Sans', sans-serif;
+    margin-top: 1.0em;
+    position: center;
+  }
+
+  p {
+    font-size:16px;
+    color:#fffff;
+    font-family:'Open Sans', sans-serif;
+    margin-top: 1.0em;
+    padding: 1.5em;
+    line-height: 1.5;
+    display:table-cell;
+    vertical-align:middle;
+  }
+
 }
 
 .core-values-item {
   margin-bottom: 15px;
+  margin-top: 1.5em;
 }
 
 .core-values-item > i {
@@ -149,6 +181,43 @@
   font-size: 68px;
 }
 /* END Technology section */
+
+
+/* Who we are section */
+.whoweare {
+  h3 {
+    font-size:32px;
+    font-weight: bold;
+    /*color:#2fc4ae;*/
+    color:#446c80;
+    font-family:'Open Sans', sans-serif;
+    margin: 1.5em;
+    position: center;
+  }
+
+  h4 {
+    font-size:22px;
+    font-weight: bold;
+    /*color:#2fc4ae;*/
+    color:#446c80;
+    font-family:'Open Sans', sans-serif;
+    margin-top: 1.5em;
+    position: center;
+  }
+
+  p {
+    font-size:16px;
+    color:#446c80;
+    font-family:'Open Sans', sans-serif;
+    margin: 1.5em;
+    padding: 1.5em;
+    line-height: 1.5;
+    display:table-cell;
+    vertical-align:middle;
+  }
+}
+/* END How it works section */
+
 
 
 
