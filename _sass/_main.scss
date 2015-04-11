@@ -38,6 +38,27 @@
     vertical-align:middle;
   }
 }
+
+.icon-item {
+  margin-bottom: 15px;
+  margin-top: 1.5em;
+}
+
+.icon-item > i {
+  border: 3px solid #aaaaaa;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 56px;
+  width: 140px;
+  height: 140px;
+  line-height: 136px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.icon-item > i:hover {
+  font-size: 68px;
+}
 /* END How it works section */
 
 /* Video Melissa section */
@@ -157,28 +178,6 @@
     display:table-cell;
     vertical-align:middle;
   }
-
-}
-
-.core-values-item {
-  margin-bottom: 15px;
-  margin-top: 1.5em;
-}
-
-.core-values-item > i {
-  border: 3px solid #ffffff;
-  border-radius: 50%;
-  display: inline-block;
-  font-size: 56px;
-  width: 140px;
-  height: 140px;
-  line-height: 136px;
-  vertical-align: middle;
-  text-align: center;
-}
-
-.core-values-item > i:hover {
-  font-size: 68px;
 }
 /* END Technology section */
 
