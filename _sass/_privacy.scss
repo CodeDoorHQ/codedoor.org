@@ -1,0 +1,37 @@
+.privacy {
+  padding: 150px;
+  background:$lightgrey;
+  margin-right: auto;
+  margin-left: auto;
+  /*width: 1200px;*/
+  width:85%;
+}
+
+.privacy-header {
+  padding-bottom: 50px;
+  width:85%;
+}
+
+.privacy-top {
+  color: #384150;
+  padding-bottom: 80px;
+}
+
+.privacy-top header {
+  font-size: 2rem;
+  font-color: $black;
+  padding-bottom: 10px;
+}
+
+section.privacy h4 {
+  margin-bottom: 12px;
+}
+
+section.privacy h3 {
+  color: #4b5c66;
+  margin-left: 0px;
+  margin-top: 2.5em;
+  margin-bottom: 1.5em;
+  letter-spacing: 2px;
+
+}
