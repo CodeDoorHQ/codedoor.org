@@ -3,11 +3,13 @@
   background:$lightgrey;
   margin-right: auto;
   margin-left: auto;
-  width: 1200px;
+  /*width: 1200px;*/
+  width:85%;
 }
 
 .faq-header {
   padding-bottom: 50px;
+  width:85%;
 }
 
 .faq-top {
@@ -19,4 +21,31 @@
   font-size: 2rem;
   font-color: $black;
   padding-bottom: 10px;
+}
+
+.span-questions {
+    margin-bottom: 12px;
+}
+
+.qa {
+  margin-bottom: 36px;
+}
+
+section.faq h4 {
+  margin-bottom: 12px;
+}
+
+section.faq h3 {
+  color: #4b5c66;
+  margin-left: 0px;
+  margin-top: 2.5em;
+  margin-bottom: 1.5em;
+
+}
+
+.anchor{
+  display: block;
+  height: 150px; /*same height as header*/
+  margin-top: -150px; /*same height as header*/
+  visibility: hidden;
 }

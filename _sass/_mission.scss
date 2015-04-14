@@ -3,11 +3,13 @@
   background:$lightgrey;
   margin-right: auto;
   margin-left: auto;
-  width: 1200px;
+  /*width: 1200px;*/
+  width:85%;
 }
 
 .mission-header {
   padding-bottom: 50px;
+  width:85%;
 }
 
 .mission-top {
@@ -20,3 +22,4 @@
   font-color: $black;
   padding-bottom: 10px;
 }
+
