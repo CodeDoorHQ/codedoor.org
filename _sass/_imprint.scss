@@ -1,0 +1,37 @@
+.imprint {
+  padding: 150px;
+  background:$lightgrey;
+  margin-right: auto;
+  margin-left: auto;
+  /*width: 1200px;*/
+  width:85%;
+}
+
+.imprint-header {
+  padding-bottom: 50px;
+  width:85%;
+}
+
+.imprint-top {
+  color: #384150;
+  padding-bottom: 80px;
+}
+
+.imprint-top header {
+  font-size: 2rem;
+  font-color: $black;
+  padding-bottom: 10px;
+}
+
+section.imprint h4 {
+  margin-bottom: 12px;
+}
+
+section.imprint h3 {
+  color: #4b5c66;
+  margin-left: 0px;
+  margin-top: 2.5em;
+  margin-bottom: 1.5em;
+  letter-spacing: 2px;
+
+}
