@@ -41,11 +41,7 @@ google_analytics:
 # Used for Sitemap.xml and your RSS feed
 url: http://codedoor.org
 
-# If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-baseurl: "/codedoor.org"
+BASE_PATH : false
 
 #
 # !! You don't need to change any of the configuration flags below !!
